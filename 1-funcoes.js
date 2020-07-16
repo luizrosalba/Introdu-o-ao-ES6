@@ -5,6 +5,8 @@ function logFn(fn){
 console.log(fn()); 
 }
 
-const logFnResult = logFn; 
+const logFnResult = logFn;  // atribuindo uma funcao a uma variável 
 
-logFnREsult (getname) ; 
+
+
+logFnREsult (getname) ;  /// passando a funcao por argumento 
