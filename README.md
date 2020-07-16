@@ -1,14 +1,23 @@
 
 # Introdução ao ES6 essencial 
 Curso da Digital Innovation One para introdução ao javascript ES6 Essencial 
+Utilizando https://pandao.github.io/editor.md/en.html para editar este arquivo 
 
 ### História e Conceitos : 
   
-  ECMAScript
+  ECMAScript 6 - >ES6, ECMAScript 6 ou ES2015, é simplesmente a mais nova versão do JavaScript.
   
-  TC39
+  TC39 -> Na verdade, o nome mais usado atualmente é ES2015. A ideia do comitê responsável (conhecido como TC39) pelas atualizações da linguagem é justamente fazer um release anual. Então nesse ano teremos o ES2016 (ou ES7). E assim sucessivamente. ES6 é o mais conhecido pela comunidade.
+  Stage 0: strawman, Stage 1: proposal, Stage 2: draft, Stage 3: candidate e Stage 4: finished
   
-  babel -> transforma uma versão em uma especificação antiga (mais browser podem ter suporte)
+  O TC39 focou em alguns objetivos no desenvolvimento do ES6:
+Ser uma linguagem melhor para construir aplicações complexas
+Resolver problemas antigos do JavaScript
+Facilidade no desenvolvimento de libraries
+
+
+  
+  babel -> a grande maioria dos browsers ainda não dão suporte ao ES6, então o que podemos fazer para contornar essa limitação? Podemos usar um transpiler como o Babel. O Babel transforma o seu código de ES6 para ES5 (versão que a maioria dos browsers dá suporte hoje).
   
   javascript é interpretada -> código é executado de cima pra baixo sem compilar para linguagem de máquina 
   
@@ -44,3 +53,36 @@ https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/hostingdevariaveis.
 https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/hostingdefuncao.js
 
 Nos exemplos anteriores vemos que a função funciona ok mas a variável dá undefined pois hosting declara a funcao mesmo antes de sua utilizacao e nao atribui valor a variável , apenas a cria 
+
+Imutabilidade -> Em linguagens funcionais o tipo de dado da variável nunca muda. O ES6 permite adicionar parametros a objetos. Evita alterações indesejadas nos atributos 
+
+https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/imutabilidade.js
+
+https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/imutabilidade2.js
+
+O exemplo acima a lista de alunos nao sofre mudancas 
+
+Tipos e Variáveis -> var , let , const 
+
+var-> pioneiro no js , escopo global 
+let e const -> escopo de bloco 
+
+obs : Se você atribui um tipo a uma variável primitiva const , ele nao permite que você altere este valor. Agora se vc criar um objeto const ai ele permite que você altere as propriedades desse objeto. 
+
+ex:
+const name = 'A';
+name = 'B'; /// nao consigo alterar 
+
+const user = {
+ name : 'A';
+};
+user.name = 'B' ; /// consigo alterar 
+
+user = {
+ name : 'B';
+}; /// nao dá certo
+
+
+
+
+
