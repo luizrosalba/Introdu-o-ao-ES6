@@ -22,5 +22,7 @@ console.log('Alunos aprovados ');
 console.log(getApprovedStudents(students)); 
 
 console.log('\n Lista de Alunos '); 
-console.log(students); 
+console.log(students);  /// a lista inicial nao foi alterada 
 
+var teste = 1;
+teste = 'texto';
