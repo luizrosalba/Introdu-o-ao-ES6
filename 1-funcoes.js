@@ -8,4 +8,4 @@ function logFn(fn){
 
 const logFnResult = logFn;  // atribuindo uma funcao a uma variável 
 
-logFnResult (getname) ;  /// passando a funcao por argumento 
+logFnResult (getName) ;  /// passando a funcao por argumento 
