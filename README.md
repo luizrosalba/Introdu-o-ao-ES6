@@ -1,3 +1,4 @@
+
 # Introdução ao ES6 essencial 
 Curso da Digital Innovation One para introdução ao javascript ES6 Essencial 
 
@@ -6,6 +7,7 @@ Curso da Digital Innovation One para introdução ao javascript ES6 Essencial
   ECMAScript 6 - >ES6, ECMAScript 6 ou ES2015, é simplesmente a mais nova versão do JavaScript.
   
   TC39 -> Na verdade, o nome mais usado atualmente é ES2015. A ideia do comitê responsável (conhecido como TC39) pelas atualizações da linguagem é justamente fazer um release anual. Então nesse ano teremos o ES2016 (ou ES7). E assim sucessivamente. ES6 é o mais conhecido pela comunidade.
+  Stage 0: strawman, Stage 1: proposal, Stage 2: draft, Stage 3: candidate e Stage 4: finished
   
   O TC39 focou em alguns objetivos no desenvolvimento do ES6:
 Ser uma linguagem melhor para construir aplicações complexas
@@ -58,5 +60,28 @@ https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/imutabilidade.js
 https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/imutabilidade2.js
 
 O exemplo acima a lista de alunos nao sofre mudancas 
+
+Tipos e Variáveis -> var , let , const 
+
+var-> pioneiro no js , escopo global 
+let e const -> escopo de bloco 
+
+obs : Se você atribui um tipo a uma variável primitiva const , ele nao permite que você altere este valor. Agora se vc criar um objeto const ai ele permite que você altere as propriedades desse objeto. 
+
+ex:
+const name = 'A';
+name = 'B'; /// nao consigo alterar 
+
+const user = {
+ name : 'A';
+};
+user.name = 'B' ; /// consigo alterar 
+
+user = {
+ name : 'B';
+}; /// nao dá certo
+
+
+
 
 
