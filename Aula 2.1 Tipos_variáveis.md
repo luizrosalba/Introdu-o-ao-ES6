@@ -71,7 +71,7 @@ delete user.name ; /// deleta a key name
  function = também é um objeto , mas que pode ser chamado 
  array = um objeto que tem relação com os itens dele , relacionando cada item com o tipo atribuido
  
- ##### #####  symbol cria um tipo unico
+ ##### symbol cria um tipo unico
  Permite atributos privados dentro de objetos e classes, simulando um objeto do tipo enum.  Não é enumerable (isso é vc nao consegue enumerar ela como uma chave dentro de um for) 
  
  ex da propriedade enumerable : 
