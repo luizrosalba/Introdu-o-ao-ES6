@@ -1,4 +1,4 @@
-# Aula 1.2 Currying, Hoisting, Imutabilidade, Tipos e Variáveis
+### Aula 1.2 Currying, Hoisting, Imutabilidade, Tipos e Variáveis
 curring -> Técnica de transformar uma função com n parâmetros em apenas uma função que recebe um parâmetro e para cada parâmetro vamos retornando uma nova função
 
 https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/curring.js
