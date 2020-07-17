@@ -16,8 +16,12 @@ Facilidade no desenvolvimento de libraries
   
   javascript é interpretada -> código é executado de cima pra baixo sem compilar para linguagem de máquina 
   
-  Tipagem é fraca  ( não há verificação em todas as operações , ex: você pode somar inteiros com strings ) e dinâmica ( a partir da atribuição o tipo saberá o tipo da variável - inferência de tipo)
-  
+  Tipagem é fraca  ( não há verificação em todas as operações , ex: você pode somar inteiros com strings ) e 
+  dinâmica ( a partir da atribuição o tipo saberá o tipo da variável - inferência de tipo) , você pode atribuir a mesma variável a diferentes tipos 
+  var x;           // Now x is undefined
+  x = 5;           // Now x is a Number
+  x = "John";      // Now x is a String
+
   Typescript -> É um superset da linguagem, adiciona tipos e funcionalidades que o javascript nao tem por padrão (ex: enum)
   
   Flow -> Semelhante ao typescript em relação a checagem de tipos , mas não é um superset da linguagem. 
