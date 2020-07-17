@@ -109,7 +109,7 @@ https://www.w3schools.com/js/js_number_methods.asp
  
 #####  undefined= existe mas nao foi inicializada. Undefined é um tipo e não um object. (typeof undefined retorna undefined)
  
-##### #####  symbol = valores unicos  cria um "enum", 
+
  
  ##### object = 
  ex: 
@@ -155,4 +155,6 @@ delete user.name ; /// deleta a key name
 
  function = também é um objeto , mas que pode ser chamado 
  array = um objeto que tem relação com os itens dele , relacionando cada item com o tipo atribuido
+ 
+ ##### #####  symbol = valores unicos  cria um "enum", 
  
