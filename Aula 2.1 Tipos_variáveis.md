@@ -1,7 +1,7 @@
 ### Aula2.1 Tipos e variáveis
 Obs : Retorna typeof retorna o tipo da variável 
 
-####string = texto 
+#### string = texto 
 ##### lenght,replace(procura e muda) ,slice (fatia da string), substr
 tipo : 
 https://www.w3schools.com/js/js_strings.asp
