@@ -157,15 +157,21 @@ delete user.name ; /// deleta a key name
  array = um objeto que tem relação com os itens dele , relacionando cada item com o tipo atribuido
  
  ##### #####  symbol cria um tipo unico
- Permite atributos privados dentro de objetos e classes, Não é enumerable (isso é vc nao consegue enumerar ela como uma chave dentro de um for) 
+ Permite atributos privados dentro de objetos e classes, simulando um objeto do tipo enum.  Não é enumerable (isso é vc nao consegue enumerar ela como uma chave dentro de um for) 
  
- ex enumerable : 
+ ex da propriedade enumerable : 
+ 
  for (const key in user ){
   if (user.hasOwnProperty(key)){
    console.log(${key}) /// so mostra as chaves que nao sao symbols
   }  
  
  }
+ 
+ /// pode ser contornado pela função get.OwnPropertySymbols() /// ai o for consegue listar 
+ 
+ ou também pode ser usado o método 
+ Reflect.ownKeys(user); /// o metodo reflect consegue forçar a listagem de symblos 
  
  ex1) 
  const symbol1 = Symbol(); 
@@ -183,3 +189,12 @@ delete user.name ; /// deleta a key name
  }
  /// vc nao consegue sobrescrever essa propriedade mesmo elas tendo o mesmo atributo (name), ele vai criar dois symbols com name
  
+ 
+ 
+ 
+ 
+ 
+
+
+
+
