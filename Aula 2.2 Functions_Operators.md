@@ -151,7 +151,13 @@ if (dia instance of Date) // true
 
 
 
+####  for in e for of 
 
+for in -> executa todas propriedades de um objeto
+for of ->  so executas as propriedades numeráveis de um objeto 
 
+####  continue 
+if (element %2 ===0 )
+continue 
 
-
+pula a execução para os pares 
