@@ -153,8 +153,9 @@ if (dia instance of Date) // true
 
 ####  for in e for of 
 
-for in -> executa todas propriedades de um objeto
-for of ->  so executas as propriedades numeráveis de um objeto 
+for in -> Passa por todos os valores dos objetos 
+
+for of ->  retorna o indice de cada objeto 
 
 ####  continue 
 if (element %2 ===0 )
