@@ -114,10 +114,48 @@ console.log(pug);
 
 
 ### Modificadores de Acesso 
+Js nao tem 
+Atualmente v 12 do node , mas ainda nao tem suporte nos browsers , controla o que é privado e publico nos browsers 
+usa funções get e set para recuperar os atributos 
+sintaxe: 
+hashtag_nomevar -> torna a variável privada 
+
 
 ### Encapsulamento 
+Oculta detalhes do funcionamento interno 
+
+pode-se usar metodos set e get (v12 do node) para setar e obter o valor de um atributo 
+
+
 
 ### Static
+
+permite que acesse métodos e atributos sem instanciar uma classe 
+
+ex1: com funcoes , implementação de static do JS 
+
+'use strict'; 
+
+function Person() {}
+
+Person.walk = function () {
+    console.log('walking'); 
+}
+console.log(Person.walk()); 
+
+ex2: com classes com ES6 temos a palavra chave static pode ser chamada sem instanciar 
+
+'use strict'; 
+function Person() {}
+    static walk()  {
+    console.log('walking'); 
+}
+
+console.log(Person.walk()); 
+
+
+
+
 
 
 
