@@ -156,5 +156,30 @@ delete user.name ; /// deleta a key name
  function = também é um objeto , mas que pode ser chamado 
  array = um objeto que tem relação com os itens dele , relacionando cada item com o tipo atribuido
  
- ##### #####  symbol = valores unicos  cria um "enum", 
+ ##### #####  symbol cria um tipo unico
+ Permite atributos privados dentro de objetos e classes, Não é enumerable (isso é vc nao consegue enumerar ela como uma chave dentro de um for) 
+ 
+ ex enumerable : 
+ for (const key in user ){
+  if (user.hasOwnProperty(key)){
+   console.log(${key}) /// so mostra as chaves que nao sao symbols
+  }  
+ 
+ }
+ 
+ ex1) 
+ const symbol1 = Symbol(); 
+ const symbol2 = Symbol(); 
+ 
+ symbol1 === symbol2 ; / / retorna falso , cada um tem um tipo unico 
+ 
+ ex2) 
+ const symbol1 = Symbol('name'); 
+ const symbol2 = Symbol('name'); 
+ 
+ const user = {
+ [symbol1]: 'ABC',
+ [symbol2]: 'DEF',
+ }
+ /// vc nao consegue sobrescrever essa propriedade mesmo elas tendo o mesmo atributo (name), ele vai criar dois symbols com name
  
