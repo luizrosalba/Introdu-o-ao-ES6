@@ -31,17 +31,17 @@ Padroes esttruturais :
 Padroes Comportamentais : 
     Algoritmos e atribuições de responsabilidades entre os objetos, não descrevem apenas padroes classe se objetos , mas tb de comunicação entre os objetos : Chain of Responsibility , Command, Interpreter , Iterator, Mediator , Observer , State, Strategy , Template Method e visitor 
     
-   Patterns mais usados em Js : Factory , Singleton , Decorator , Observer e Module 
+Patterns mais usados em Js : Factory , Singleton , Decorator , Observer e Module 
+ 
+Factory > Funções que retornam um objeto sem a necessidade de chamalas com new são consideradas factory 
     
-    Factory > Funções que retornam um objeto sem a necessidade de chamalas com new são consideradas factory 
+Singleton > cria um unica instancia de uma funcao construtora e retorna-la toda vez que for necessário utilizala (ex: JQuery) , mesmo que você crie uma nova instancia , ela sempre retornará o mesmo valro 
     
-    Singleton > cria um unica instancia de uma funcao construtora e retorna-la toda vez que for necessário utilizala (ex: JQuery) , mesmo que você crie uma nova instancia , ela sempre retornará o mesmo valro 
+Decorator > Uma funcão que recebe outra função como parametro e altera seu comportamento sem modifica-la explicitamente 
     
-    Decorator > Uma funcão que recebe outra função como parametro e altera seu comportamento sem modifica-la explicitamente 
+Observer >  A instancia (subscriber) mantem uma coleção de objetos (observers) e notifica todos eles quando ocorrem mudanças de estado (no VUE a propriedade notify ,toda vez que há uma mudança de estado quem estiver escutando será notificado ) manter uma lista no observer , criar uma função subscribe , outra unsubscribe e notify 
     
-    Observer >  A instancia (subscriber) mantem uma coleção de objetos (observers) e notifica todos eles quando ocorrem mudanças de estado (no VUE a propriedade notify ,toda vez que há uma mudança de estado quem estiver escutando será notificado ) manter uma lista no observer , criar uma função subscribe , outra unsubscribe e notify 
-    
-    Mdoule > Permite organizar o corido sem a necessidade de expor variáveis globais No ES6 (export default)
+Mdoule > Permite organizar o corido sem a necessidade de expor variáveis globais No ES6 (export default)
     
     
     
