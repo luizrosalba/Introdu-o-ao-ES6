@@ -22,3 +22,8 @@ https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/Aula%203.1%20Orient
 
 ### Aula 3.2 OO e Design Patterns 
 https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/Aula%203.2%20Orienta%C3%A7%C3%A3o_obj_e_desing_patterns.md
+
+
+### Aula 3.3 Manipulação e interação entre arrays 
+
+https://github.com/luizrosalba/Introducao_ao_ES6/blob/master/Aula%203.3%20ManipulacaoeiteracaoArrays.md
