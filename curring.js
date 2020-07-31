@@ -1,5 +1,5 @@
 ///funcao sem curring 
-```Javascript
+
 function soma(a,b) { 
     return a+b; 
 }
@@ -25,5 +25,3 @@ const soma2 = somaComCurring(2) ;
  console.log( soma2(4) ); 
  console.log( soma2(5) ); 
 
-
-```
